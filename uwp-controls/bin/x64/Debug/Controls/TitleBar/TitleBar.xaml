@@ -1,0 +1,25 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Controls">
+
+
+    <Style TargetType="controls:TitleBar" >
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="controls:TitleBar">
+                    <Grid Background="{TemplateBinding Background}">
+                        <TextBlock x:Name="titleName" 
+                                   Margin="4,0,0,0" 
+                                   Padding="4" 
+                                   Foreground="{TemplateBinding Foreground}"
+                                   VerticalAlignment="Center"
+                                   Text="{TemplateBinding Title}"
+                                   FontSize="{TemplateBinding FontSize}"></TextBlock>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
+

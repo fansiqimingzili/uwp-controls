@@ -1,0 +1,2 @@
+D:\fork\uwp-controls\Controls\Controls.csproj;x64
+D:\fork\uwp-controls\uwp-controls\uwp-controls.csproj;x64
